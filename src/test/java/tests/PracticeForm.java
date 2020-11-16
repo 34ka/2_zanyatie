@@ -13,6 +13,7 @@ public class PracticeForm {
     void fillFormTest() {
         open("https://demoqa.com/automation-practice-form");
 
+
         $("#firstName").val("Noob");
         $("#lastName").val("Noobski");
         $("#userEmail").val("Noobski@rgewrgwrg.rty");
@@ -36,7 +37,6 @@ public class PracticeForm {
                 userEmail = "Noobski@rgewrgwrg.rty",
                 userNumber = "1234567890",
                 currentAddress = "Lenina, 51, 37";
-
 
         open("https://demoqa.com/automation-practice-form");
 
